@@ -9,3 +9,15 @@ average = (items.reduce(reducer) / items.length);
 
 console.log('Average:', average);
 
+
+// Calculate the lenght of a JavaScript Object
+
+let film = {
+    title: 'Road Warrior',
+    actress: 'Charlize <3'
+};
+
+let entries = Object.entries(film);
+
+console.log(entries.length);
+
