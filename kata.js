@@ -21,3 +21,8 @@ let entries = Object.entries(film);
 
 console.log(entries.length);
 
+
+// What does push and pop to an Array?
+
+const clase = [1, 2, 3];
+console.log(clase.push(9));
