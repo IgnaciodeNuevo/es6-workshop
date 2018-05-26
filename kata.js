@@ -41,3 +41,22 @@ function isOnTheArray(arr, value) {
 }
 
 isOnTheArray(items, 'as');
+
+
+// If you have an semaforo array with 3 colours return the next isOnTheArray
+
+const semaforo = ['Rojo', 'Naranja', 'Verde'];
+
+function testSemaforo(color) {
+  if (color === 'Rojo') {
+    console.log('Naranja');
+  } else if (color === 'Naranja') {
+    console.log('Verde');
+  } else if (color === 'Verde') {
+    console.log('Rojo');
+  } else {
+    console.log('Error');
+  }
+}
+
+testSemaforo('Verde');
