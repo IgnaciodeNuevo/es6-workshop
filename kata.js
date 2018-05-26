@@ -26,3 +26,18 @@ console.log(entries.length);
 
 const clase = [1, 2, 3];
 console.log(clase.push(9));
+
+
+// If you have an array and a string, verify if the value is within the array.
+
+let items = ['asdfasdf', 234, 'as'];
+
+function isOnTheArray(arr, value) {
+  if (items.indexOf(value) != -1) {
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+}
+
+isOnTheArray(items, 'as');
