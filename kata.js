@@ -71,3 +71,16 @@ numbers.forEach(number => {
   acumulator += number;
   console.log(acumulator);
 });
+
+
+// Given an array get the minimium of the positive values
+
+let numbers = [1, 2, 57, -4, -27, 339, -214, 0];
+
+function getMinorOfPositiveNumbers() {
+  positiveNumbers = numbers.filter(n => n > 0);
+  minorPositiveNumber = positiveNumbers.sort((a, b) => a - b);
+  console.log(minorPositiveNumber[0]);
+}
+
+getMinorOfPositiveNumbers(numbers);
