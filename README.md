@@ -1,2 +1,1 @@
-# es6-workshop
-ES6 Workshop
+# ES6 Workshop
