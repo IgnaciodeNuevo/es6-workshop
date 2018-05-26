@@ -60,3 +60,14 @@ function testSemaforo(color) {
 }
 
 testSemaforo('Verde');
+
+
+// Sum every array number using forEach
+
+const numbers = [1, 2, 3];
+let acumulator = 0;
+
+numbers.forEach(number => {
+  acumulator += number;
+  console.log(acumulator);
+});
